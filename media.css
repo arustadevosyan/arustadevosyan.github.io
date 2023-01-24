@@ -1,0 +1,158 @@
+.sec1{
+	width: 100%;
+	height: 700px;
+	background-image: url("original.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.menu_div_sec1{
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*border: solid;*/
+	position: fixed;
+	top: 0;
+}
+.menu_logo{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.menu_logo span{
+	color: hotpink;
+	font-size: 50px;
+}
+.menu_logo h1{
+	color: white;
+}
+.menu_list{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.menu{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap:30px;
+}
+.menu li{
+	list-style: none;
+	color: white;
+}
+.textt_inner{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+.textt_inner span{
+	color: white;
+	font-size: 40px;
+}
+.textt_inner h1{
+	color: white;
+}
+.textt_inner hr{
+	width: 300px;
+	height: 5px;
+	border: none;
+	background: hotpink;
+}
+.textt_inner p{
+	color: white;
+}
+.textt_inner button{
+	width: 150px;
+	height: 30px;
+	background: hotpink;
+	border-radius: 20%;
+	border:none;
+}
+.sec2{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.sec2_text{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.sec2_text hr{
+	width: 200px;
+	height: 5px;
+	background: hotpink;
+	border: none;
+}
+.note_img_div{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.note_img_div img{
+	width: 90%;
+	height: 100%;
+	/*position: absolute;*/
+}
+#parent_js{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	width: 400px;
+	height: 200px;
+	border: solid;
+}
+.sec3{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+.sec3 hr{
+	width: 200px;
+	height: 5px;
+	background: hotpink;
+	border: none;
+}
+#sec3_js{
+	width: 100%;
+	height: 300px;
+	/*border: solid;*/
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.slide_bg{
+	width: 100%;
+	height: 800px;
+	background-image: url("3e.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
